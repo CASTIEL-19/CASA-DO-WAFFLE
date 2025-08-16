@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casa do Waffle - Tradição desde 1985</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Montserrat:wght@400;700&family=Luckiest+Guy&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Atualize o header para incluir o link -->
+<nav>
+    <a href="#historia">Nossa História</a>
+    <a href="#cardapio">Cardápio</a>
+    <a href="#contato">Contato</a>
+</nav>
+    <!-- CABEÇALHO FIXO -->
+    <header class="header-fixo">
+        <div class="logo">
+            <div class="logo-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"/>
+                    <path d="M12 6c-3.31 0-6 2.69-6 6s2.69 6 6 6 6-2.69 6-6-2.69-6-6-6zm0 10c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4z"/>
+                    <circle cx="12" cy="12" r="2"/>
+                </svg>
+            </div>
+            <h1 class="logo-text">Casa do Waffle</h1>
+        </div>
+    </header>
+
+    <!-- HERO COM VÍDEO -->
+    <section class="hero">
+        <video class="hero-video" autoplay muted loop>
+            <source src="https://assets.mixkit.co/videos/preview/mixkit-pouring-honey-on-a-waffle-22511-large.mp4" type="video/mp4">
+        </video>
+        <div class="hero-content">
+            <h1>Ofertas Especiais</h1>
+            <p>Descubra nossos waffles artesanais</p>
+            <a href="#cardapio" class="btn-pulse">Ver Cardápio Completo</a>
+        </div>
+    </section>
+<!-- Adicione isso ANTES da seção do cardápio -->
+<section id="historia" class="historia-section">
+    <div class="container">
+        <h2 class="section-title">Nossa <span>Jornada</span></h2>
+        
+        <div class="historia-timeline">
+            <!-- Item 1 -->
+            <div class="timeline-item">
+                <div class="timeline-ano">1985</div>
+                <div class="timeline-content">
+                    <h3>Fundada em ES</h3>
+                    <p>Começamos numa pequena cozinha no bairro Santa Tereza, com a receita secreta da vovó Maria.</p>
+                </div>
+            </div>
+            
+            <!-- Item 2 -->
+            <div class="timeline-item">
+                <div class="timeline-ano">1999</div>
+                <div class="timeline-content">
+                    <h3>1ª Loja Própria</h3>
+                    <p>Inauguramos nossa casa na Rua da Bahia com capacidade para 50 pessoas.</p>
+                </div>
+            </div>
+            
+            <!-- Item 3 -->
+            <div class="timeline-item">
+                <div class="timeline-ano">2020</div>
+                <div class="timeline-content">
+                    <h3>Reinvenção</h3>
+                    <p>Adaptamos nosso negócio com delivery e receitas veganas, sem perder a essência.</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="historia-destaque">
+            <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Nossa equipe">
+            <div class="destaque-box">
+                <p>"Mantemos a tradição com ingredientes selecionados desde 1985"</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- CARROSSEL DE PROMOÇÕES -->
+    <section class="carrossel-container">
+        <h2 class="section-title">Promoções <span>do Dia</span></h2>
+        <div class="carrossel">
+            <!-- Waffle Americano -->
+            <div class="promo-item">
+                <div class="badge">-20%</div>
+                <img src="https://iili.io/FQIodNe.md.jpg" alt="Waffle Americano">
+                <div class="promo-info">
+                    <h3>Waffle Americano</h3>
+                    <p>Bacon crocante e queijo derretido</p>
+                    <span class="preco">R$ 18,90</span>
+                    <button class="btn-comprar">Comprar Agora</button>
+                </div>
+            </div>
+            
+            <!-- Waffle Texas -->
+            <div class="promo-item">
+                <div class="badge">LANÇAMENTO</div>
+                <img src="https://iili.io/FQIILdl.jpg" alt="Waffle Texas">
+                <div class="promo-info">
+                    <h3>Waffle Texas</h3>
+                    <p>Queijo cheddar e costela suína</p>
+                    <span class="preco">R$ 22,90</span>
+                    <button class="btn-comprar">Comprar Agora</button>
+                </div>
+            </div>
+            
+            <!-- Waffle Tennessee -->
+            <div class="promo-item">
+                <div class="badge">MAIS VENDIDO</div>
+                <img src="https://iili.io/FQTdS19.jpg" alt="Waffle Tennessee">
+                <div class="promo-info">
+                    <h3>Waffle Tennessee</h3>
+                    <p>Frango desfiado com molho barbecue</p>
+                    <span class="preco">R$ 19,90</span>
+                    <button class="btn-comprar">Comprar Agora</button>
+                </div>
+            </div>
+            
+            <!-- Waffle California -->
+            <div class="promo-item">
+                <img src="https://iili.io/FQT3mOJ.md.jpg" alt="Waffle California">
+                <div class="promo-info">
+                    <h3>Waffle California</h3>
+                    <p>Abacate, tomate seco e queijo feta</p>
+                    <span class="preco">R$ 21,90</span>
+                    <button class="btn-comprar">Comprar Agora</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CARDÁPIO COMPLETO -->
+    <section id="cardapio" class="cardapio-section">
+        <div class="container">
+            <h2 class="section-title">Nosso <span>Cardápio</span></h2>
+            
+            <div class="filtros">
+                <button class="active" data-categoria="salgados">Waffles Salgados</button>
+                <button data-categoria="bebidas">Bebidas</button>
+            </div>
+            
+            <div class="itens-cardapio">
+                <!-- Waffles Salgados -->
+                <div class="item-cardapio" data-categoria="salgados">
+                    <div class="item-img">
+                        <img src="https://iili.io/FQIodNe.md.jpg" alt="Waffle Americano">
+                    </div>
+                    <div class="item-info">
+                        <h3>Waffle Americano</h3>
+                        <p>Bacon crocante e queijo derretido com nosso waffle artesanal</p>
+                        <span class="price">R$ 18,90</span>
+                    </div>
+                </div>
+                
+                <div class="item-cardapio" data-categoria="salgados">
+                    <div class="item-img">
+                        <img src="https://iili.io/FQIILdl.jpg" alt="Waffle Texas">
+                    </div>
+                    <div class="item-info">
+                        <h3>Waffle Texas</h3>
+                        <p>Queijo cheddar e costela suína defumada</p>
+                        <span class="price">R$ 22,90</span>
+                    </div>
+                </div>
+                
+                <!-- Waffles Doces -->
+                <div class="item-cardapio" data-categoria="doces">
+                    <div class="item-img">
+                        <img src="https://images.unsplash.com/photo-1562376552-0d160a2f238d?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Waffle Doce">
+                    </div>
+                    <div class="item-info">
+                        <h3>Waffle de Chocolate</h3>
+                        <p>Chocolate belga e morangos frescos</p>
+                        <span class="price">R$ 16,90</span>
+                    </div>
+                </div>
+                
+                <!-- Bebidas -->
+                <div class="item-cardapio" data-categoria="bebidas">
+                    <div class="item-img">
+                        <img src="https://iili.io/FQIBQ5X.md.jpg" alt="Refrigerantes">
+                    </div>
+                    <div class="item-info">
+                        <h3>Refrigerantes</h3>
+                        <p>Coca-Cola, Guaraná Antarctica, Fanta Laranja</p>
+                        <span class="price">R$ 7,90</span>
+                    </div>
+                </div>
+                
+                <div class="item-cardapio" data-categoria="bebidas">
+                    <div class="item-img">
+                        <img src="https://iili.io/FQICgpe.md.jpg" alt="Suco de Manga">
+                    </div>
+                    <div class="item-info">
+                        <h3>Suco de Manga</h3>
+                        <p>Natural e geladinho</p>
+                        <span class="price">R$ 8,90</span>
+                    </div>
+                </div>
+                
+                <div class="item-cardapio" data-categoria="bebidas">
+                    <div class="item-img">
+                        <img src="https://iili.io/FQIn5aS.md.jpg" alt="Suco de Maracujá">
+                    </div>
+                    <div class="item-info">
+                        <h3>Suco de Maracujá</h3>
+                        <p>Refrescante e natural</p>
+                        <span class="price">R$ 8,90</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- RODAPÉ -->
+    <footer>
+        <div class="logo-footer">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"/>
+                <path d="M12 6c-3.31 0-6 2.69-6 6s2.69 6 6 6 6-2.69 6-6-2.69-6-6-6zm0 10c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4z"/>
+                <circle cx="12" cy="12" r="2"/>
+            </svg>
+            <h3>Casa do Waffle</h3>
+        </div>
+        
+        <div class="redes-sociais">
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-whatsapp"></i></a>
+        </div>
+        
+        <p class="copyright">&copy; 2024 Casa do Waffle. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+<!-- No head do HTML, substitua esta linha: -->
+<link rel="stylesheet" href="styles.css">
+
+<!-- Por isto (caminho absoluto): -->
+<link rel="stylesheet" href="/styles.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
